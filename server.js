@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 var bodyParser = require('body-parser');
-let PORT = 3000;
+let PORT = process.env.PORT || 3000;
 let path = require('path');
 
 //set up app to handle data parsing
