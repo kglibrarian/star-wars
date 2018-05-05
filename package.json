@@ -1,0 +1,24 @@
+{
+  "name": "star-wars",
+  "version": "1.0.0",
+  "description": "a heroku app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kglibrarian/star-wars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kglibrarian/star-wars/issues"
+  },
+  "homepage": "https://github.com/kglibrarian/star-wars#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
